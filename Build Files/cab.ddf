@@ -1,0 +1,18 @@
+
+.OPTION EXPLICIT     ; Generate errors
+.Set CabinetNameTemplate=DriverRCT.cab
+.set DiskDirectoryTemplate=CDROM ; All cabinets go in a single directory
+.Set CompressionType=MSZIP;** All files are compressed in cabinet files
+.Set UniqueFiles=ON
+.Set Cabinet=on
+.Set DiskDirectory1=.
+.Set MaxCabinetSize=0
+.Set MaxDiskSize=0
+.Set SourceDir=.\
+.Set InfDateFormat=yyyy-mm-dd
+
+DriverCheck.xml
+DriverSourceCheck.ps1
+manifest.xml
+
+;*** <the end>

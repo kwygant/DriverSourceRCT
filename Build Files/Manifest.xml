@@ -1,0 +1,14 @@
+<CustomExtensionManifest ExtensionID="cea4a25c-89e3-4570-bb1a-024498337205" Name="Driver Content Check" Description="Verifies drivers in the selected package still exist at their source location" Version="1.0" Author="Ken Wygant (Microsoft CSA-E)">
+    <Deployments>
+        <ActionExtensionDeployment ParentNode="4b05362e-3ea4-4931-aa2d-3d889b1d75e4">
+            <FileList>
+                <File Name="DriverCheck.xml">
+                    <Hash Algorithm="sha256">65E30AB1F2442F39D77E6683055190D7C8553742012D77AA738FAC94B2319E91</Hash>
+                </File>
+                <File Name="DriverSourceCheck.ps1">
+                    <Hash Algorithm="sha256">F3092CD0C14616EFF4C22C81DC797B676F15053B16EB993DFE3041A6F61715A1</Hash>
+                </File>
+            </FileList>
+        </ActionExtensionDeployment>
+            </Deployments>
+</CustomExtensionManifest>

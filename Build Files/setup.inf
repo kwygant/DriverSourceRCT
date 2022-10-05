@@ -1,0 +1,20 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Wed Oct 05 15:21:33 2022           **
+;**                                                                **
+;** MakeCAB Version: 5.00                                 **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,DriverRCT.cab
+[file list]
+1,1,DriverCheck.xml,2972
+1,1,DriverSourceCheck.ps1,25800
+1,1,manifest.xml,883
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Wed Oct 05 15:21:33 2022           **
+;**                                                                **
+;*** END ************************************************************
